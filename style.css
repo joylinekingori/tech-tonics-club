@@ -1,0 +1,158 @@
+@font-face {
+    font-family: agba;
+    src: url(./fonts/Argon_Regular1.otf);
+}
+
+@font-face {
+    font-family: Dom;
+    src: url(./fonts/Domine-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: jhm;
+    src: url(./fonts/JMH\ Typewriter\ \(1\).ttf)
+}
+
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(image/biologist-scientist-african-woman-researcher-taking-genetic-solution-from-test-tube.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+.body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.text{
+    color: black;
+    background-color: white;
+    line-height: 1.8rem;
+    position: absolute;
+    margin-left: 45rem;
+    margin-top: 15rem;
+    text-align: center;
+    width: 20rem;
+    text-align: justify;
+    padding: 2rem;
+    border-radius: 2rem;
+        
+}
+.text h1 {
+    font-size: 500%;
+    font-family: jhm;
+    color: yellow;
+
+}
+
+.text h2 {
+    font-size: 200%;
+}
+
+.text p {
+    font-size: 100%;
+    font-family: Dom;
+}
+nav{
+    display: flex;
+    background-color: rgb(90, 72, 76);
+    position: sticky;
+    /* top: 0%;
+    z-index: 1000;
+    margin-bottom: 5em; */
+    width: 100vw;
+    height: 8vh;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: wid;
+        cursor: pointer;
+        font-family: Dom;
+    }
+}
+.icon-link{
+    display: block;
+}
+.rename{
+   width: 70rem;
+    margin-left: 25rem;
+    text-align: justify;
+    font-size: 100%;
+    margin-top: 5rem;
+    line-height: 1.8;
+    margin: 0,auto;
+    font-family: Dom;
+    padding: 2rem;
+    box-shadow:4px 4px 10px 2px rgb(0,0,0,0.5);
+    transition: 0.5s ease-in;
+    margin-bottom: 10rem;
+}
+.rename:hover{
+    transform: scale(1.1);
+
+
+}
+.exp-one{
+    margin-left: 25rem;
+    box-shadow:4px 4px 10px 2px rgb(0,0,0,0.5);
+    transition: 0.5s ease-in;
+    margin-bottom: 10rem;
+    width: 70rem;
+    padding: 2rem;
+    transition: 0.5s ease-in;
+    display: flex;
+    gap: 5rem;
+}
+.exp-one:hover{
+    transform: scale(1.1);
+}
+.exp-two{
+    font-size: 100%;
+    width: 50rem;
+    margin-top: 2rem;
+    line-height: 1.8;
+    font-family: Dom;
+   
+}
+.exp-two p{
+    text-align: justify;
+}
+#hand-fan{
+    width: 26rem;
+    height: 24rem;
+    border-radius: 0.5rem;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader{
+  width: fit-content;
+  font-weight: bold;
+  font-family: Dom;
+  font-size:100%;
+  color: #0000;
+  background: linear-gradient(90deg,#C02942 calc(50% + 0.5ch),#000 0) right/calc(200% + 1ch) 100%;
+  -webkit-background-clip: text;
+          background-clip: text;
+  animation: l7 2s infinite steps(11);
+  text-decoration: none;
+
+
+}
+.loader:before {
+  content:"Click here to read more...";
+  text-decoration: none;
+}
+@keyframes l7 {to{background-position: left}}
+.title{
+    margin-left: 50rem;
+    font-family: Dom;
+}
+
+
+
+
