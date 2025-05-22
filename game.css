@@ -1,0 +1,431 @@
+
+body{
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+    background-color: #e2dfdf;
+
+}
+
+.top-bar{
+    text-align: center;
+    padding: 5px;
+    background-color:#b5ceda;
+}
+
+nav{
+    display: flex;
+    margin-left: 80%;
+    margin-top: 0%;
+   gap:20px;
+}
+nav a{
+    text-decoration: none; 
+    color: rgb(7, 8, 8);
+     font-size: 20px; 
+}
+.game{
+    align-items: center;
+    display: flex;
+    gap: 80px;
+    line-height: 2;
+    margin-left: 5%;
+
+}
+.game-image{
+    img{margin-top: 10%;
+        height:60vh;
+    box-shadow: 2px 0 10px; }
+}
+
+.about-game p{
+ font-size: 20px;
+ box-shadow: 2px 0 10px;
+ width:60%;
+ height: 40vh;
+ padding: 5%;
+}
+.guanine-image{
+    img{
+     height: 50vh; 
+    }
+}
+
+.win-condition{
+    align-items: center;
+    display: flex;
+    gap: 80px;
+    line-height: 2;
+    margin-left: 5%;
+
+}
+.winner p{
+    font-size: 20px;
+    box-shadow: 2px 0 10px;
+    padding: 5%;
+    height: 25vh;
+    width: 45%;
+
+
+}
+.cytosine-image{
+
+  img{height: 78vh;
+padding-top: 30%;} 
+}
+.setup{
+    display: flex;
+    gap:40px;
+    align-items: center;
+    margin-left: 50px;
+    line-height: 2;
+ 
+}
+.setup-game p{
+    font-size: 20px;
+    box-shadow: 2px 0 10px;
+    height: 65%;
+    padding: 5%;
+ 
+
+}
+.cytosine-image{
+    img{border-radius:18px;
+}
+}
+footer{
+    background-color: rgb(47, 55, 56);
+    color:#FFFFFF;
+    padding: 15px 10px;
+    a{
+        color:#ffff;
+        text-decoration: none;
+    }
+}
+
+
+
+#copyright{
+    text-align: center;}
+
+
+        
+
+@media screen and (max-width: 500px) {
+    body {
+      background-color: #e2dfdf;
+      overflow-x: hidden;
+      padding: 10px;
+    }
+  
+    .top-bar {
+      padding: 10px 5px;
+    }
+  
+    nav {
+      margin-left: 0;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    nav a {
+      font-size: 16px;
+      padding: 5px 8px;
+    }
+  
+
+    .game{
+      flex-direction: column;
+      gap: 20px;
+      margin-left: 0;
+      padding: 0 10px;
+    }
+  
+    .game-image img {
+      width: 100%;
+      height: auto;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+    }
+  
+    .about-game p {
+      font-size: 16px;
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      box-shadow: none;
+    }
+  
+    .setup {
+      flex-direction: column;
+      gap: 20px;
+      margin-left: 0;
+      padding: 0 10px;
+    }
+  
+    .setup-game p {
+      font-size: 16px;
+      height: auto;
+      padding: 10px;
+      box-shadow: none;
+    }
+  
+    .cytosine-image img {
+      width: 100%;
+      height: auto;
+      padding-top: 10px;
+      border-radius: 12px;
+    }
+  
+    .win-condition {
+      flex-direction: column;
+      gap: 20px;
+      margin-left: 0;
+      padding: 0 10px;
+    }
+  
+    .winner p {
+      font-size: 16px;
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      box-shadow: none;
+    }
+  
+    .guanine-image img {
+      width: 100%;
+      height: auto;
+    }
+  
+   
+  
+    footer {
+      padding: 15px 10px;
+      text-align: center;
+    }
+  
+    #copyright {
+      font-size: 14px;
+    }
+  }
+  
+
+ @media screen and (min-width: 412px) and (max-width: 915px) {
+    body {
+      padding: 10px;
+      background-color: #e2dfdf;
+    }
+  
+    .top-bar {
+      padding: 10px 5px;
+    }
+  
+    nav {
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      max-width: 90%;
+    }
+  
+    nav a {
+      font-size: 18px;
+      padding: 5px 10px;
+    }
+  
+    
+    .game {
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-left: 0;
+      padding: 0 10px;
+    }
+  
+    .game-image img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+    }
+  
+    .about-game p {
+      font-size: 18px;
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      padding: 15px;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    }
+  
+    .setup {
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-left: 0;
+      padding: 0 10px;
+    }
+  
+    .setup-game p {
+      font-size: 18px;
+      height: auto;
+      padding: 15px;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    }
+  
+    .trevor-image img {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      padding-top: 10px;
+      border-radius: 18px;
+    }
+  
+    .win-condition {
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-left: 0;
+      padding: 0 10px;
+    }
+  
+    .winner p {
+      font-size: 18px;
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      padding: 15px;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    }
+  
+    .guanine-image img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+  
+   
+  
+    footer {
+      padding: 20px 10px;
+      text-align: center;
+    }
+  
+    #copyright {
+      font-size: 16px;
+    }
+  }
+  
+  
+ @media screen and (min-width: 915px) and (max-width: 1024px) {
+    body {
+      padding: 15px 20px;
+      background-color: #e2dfdf;
+    }
+  
+    .top-bar {
+      padding: 10px 5px;
+    }
+  
+    nav {
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      gap: 18px;
+      max-width: 95%;
+    }
+  
+    nav a {
+      font-size: 19px;
+      padding: 6px 12px;
+    }
+  
+
+    .game {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      margin-left: 0;
+      padding: 0 15px;
+      align-items: flex-start;
+    }
+  
+    .game-image img {
+      width: 100%;
+      max-width: 450px;
+      height: auto;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+      margin-top: 10%;
+    }
+  
+    .about-game p {
+      font-size: 19px;
+      width: 100%;
+      max-width: 650px;
+      height: auto;
+      padding: 20px;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+      line-height: 1.6;
+    }
+  
+    .setup {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-left: 0;
+      padding: 0 15px;
+      align-items: flex-start;
+      line-height: 1.6;
+    }
+  
+    .setup-game p {
+      font-size: 19px;
+      height: auto;
+      padding: 20px;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    }
+  
+    .cytosine-image img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      padding-top: 20px;
+      border-radius: 18px;
+    }
+  
+    .win-condition {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      margin-left: 0;
+      padding: 0 15px;
+      align-items: flex-start;
+    }
+  
+    .winner p {
+      font-size: 19px;
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      padding: 20px;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+      line-height: 1.6;
+    }
+  
+    .guanine-image img {
+      width: 100%;
+      max-width: 450px;
+      height: auto;
+    }
+  
+   
+  
+    footer {
+      padding: 20px 15px;
+      text-align: center;
+    }
+  
+    #copyright {
+      font-size: 16px;
+    }
+  }
+  
+  
