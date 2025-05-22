@@ -1,0 +1,91 @@
+.home{
+background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(image/dna.jpg);
+background-repeat: no-repeat;
+position: relative;
+height: 100vh;
+width: 100%;
+background-size: cover;
+}
+#home-title{
+    position: absolute;
+    h1{
+        color: white;
+        
+        margin-top: 8cm;
+        margin-left: 13.5cm;
+        font-size: 100px;
+
+    }
+    p{
+color: white;
+margin-left: 9.5cm;
+font-size: 25px;
+margin-top: -1cm;
+
+    }
+   
+    .fa-arrow-left{
+width: 0.5cm;
+height:0.5cm;
+border-radius: 0.2cm;
+position: absolute;
+background-color: white;
+/* color: #d4d9e2; */
+    }
+}
+
+ #about-game{
+display: flex;
+gap: 1cm;
+margin-top: 2cm;
+    img{
+        width: 7cm;
+        height: 7cm;
+        border-radius: 0.5cm;
+        margin-left: 1cm;
+    }
+        /* width: 40vw;
+        height: 80vh;
+        background-color: white;
+        border-radius: 0.5cm;
+        margin-left: 1.8cm;
+        /* box-shadow: 5px 5px 5px  #babaca; */
+        /* margin-top: 1cm; */ 
+
+    }
+
+hr{
+    color: black;
+    margin-top: 1cm;
+}
+#horizontal{
+    h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2cm;
+    }
+}
+#more-on-genetics{
+ width: 5cm;
+    height: 1.5cm;
+    border-radius: 1cm;
+    margin-left: 15cm;
+    margin-top: 2cm;
+    cursor: pointer;
+    font-size: 20px;
+}
+#guide{
+     width: 5cm;
+    height: 1.5cm;
+    border-radius: 1cm;
+    margin-left: 3cm;
+    margin-top: 0.5cm;
+    cursor: pointer;
+    font-size: 20px;
+}
+#first-card:hover{
+     width: 7cm;
+        height: 7cm;
+        border-radius: 0.5cm;
+        background-color: black;
+}
